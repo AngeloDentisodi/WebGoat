@@ -41,6 +41,14 @@ public class VulnerableTaskHolder implements Serializable {
    *
    * @author stupid develop
    */
+ // public Object toString2() { // prova commit
+//return;
+
+//}
+  
+  public String toString3() { // prova commit 2
+	  return "critical action";
+  }
   private void readObject(ObjectInputStream stream) throws Exception {
     // unserialize data so taskName and taskAction are available
     stream.defaultReadObject();
